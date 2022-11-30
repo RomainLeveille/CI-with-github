@@ -7,7 +7,7 @@ on:
   push:
     branches: [ "main", "Romain_Leveillé-Nizerolle"]
   pull_request:
-    branches: [ "main","Romain_Leveillé-Nizerolle" ]
+    branches: [ "main", "Romain_Leveillé-Nizerolle" ]
 
 permissions:
   contents: read
