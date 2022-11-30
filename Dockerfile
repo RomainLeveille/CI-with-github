@@ -2,7 +2,7 @@
 
 #Test docker file
 
-FROM node:16
+FROM python
 WORKDIR /CI-with-github
 COPY requirements.txt .
 RUN npm install
