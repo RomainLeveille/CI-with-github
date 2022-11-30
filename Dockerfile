@@ -4,8 +4,8 @@
 
 FROM node:16
 WORKDIR /CI-with-github
-COPY package.json .
+COPY requirements.txt .
 RUN npm install
 COPY . .
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["python", "-m", "unittest", "app.py"]
