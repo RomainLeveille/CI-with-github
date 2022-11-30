@@ -17,3 +17,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
            #docker push romain1806/python_app_repository:tagname
+
+
+
+#access token : dckr_pat_C7gE7wdpYzcd1yR3_Ob8B2MTglg
